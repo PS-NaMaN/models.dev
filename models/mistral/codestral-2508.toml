@@ -1,0 +1,22 @@
+# Sources (accessed 2026-09-15):
+# https://docs.mistral.ai/models/codestral-25-08
+# https://mistral.ai/news/codestral-25-08
+name = "Codestral 25.08"
+description = "Mistral's low-latency code-completion model for fill-in-the-middle, code correction, and test generation."
+family = "codestral"
+release_date = "2025-07-30"
+last_updated = "2025-07-30"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[limit]
+context = 128_000
+output = 16_384
+
+[modalities]
+input = ["text"]
+output = ["text"]

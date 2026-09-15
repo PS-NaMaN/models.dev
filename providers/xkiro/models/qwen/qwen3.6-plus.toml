@@ -1,0 +1,11 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "alibaba/qwen3.6-plus"
+reasoning_options = []
+
+[cost]
+input = 0.325
+output = 1.95
+cache_write = 0.40625
+
+[modalities]
+input = ["text", "image"]

@@ -1,0 +1,7 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "deepseek/deepseek-v3.2"
+reasoning_options = []
+
+[limit]
+context = 131_072
+output = 65_536

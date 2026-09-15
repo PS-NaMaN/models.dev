@@ -1,0 +1,23 @@
+# Sources (accessed 2026-09-15):
+# https://sensetime.com/cn/news/sensenova-6.8-flash-lite-preview
+# https://github.com/OpenSenseNova/SenseNova6.8
+# Preview release; context window to be re-verified at GA.
+name = "SenseNova 6.8 Flash Lite"
+description = "Lightweight multimodal agent model preview adding autonomous planning, multi-agent coordination and self-correction."
+family = "sensenova"
+release_date = "2026-08"
+last_updated = "2026-08"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = false
+open_weights = false
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

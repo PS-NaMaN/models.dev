@@ -1,0 +1,4 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "alibaba/qwen3.6-max-preview"
+name = "Qwen3.6 Max Preview (Free)"
+reasoning_options = []

@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "google/gemini-2.5-pro"
+reasoning_options = []
+
+[cost]
+input = 0.8125
+output = 6.5
+
+[limit]
+context = 1_000_000
+
+[modalities]
+input = ["text", "image"]

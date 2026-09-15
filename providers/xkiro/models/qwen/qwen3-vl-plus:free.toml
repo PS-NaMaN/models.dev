@@ -1,0 +1,8 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "alibaba/qwen3-vl-plus"
+name = "Qwen3 VL Plus (Free)"
+attachment = true
+reasoning_options = []
+
+[limit]
+output = 65_536

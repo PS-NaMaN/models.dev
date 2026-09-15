@@ -1,0 +1,18 @@
+# Toggle: reasoning_effort none/disabled intent, translated by xKiro
+# to the model's own off switch
+# https://docs.xkiro.com/guides/reasoning/
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "nvidia/nemotron-3-super-120b-a12b"
+name = "Nemotron 3 Super"
+
+[[reasoning_options]]
+type = "toggle"
+
+[cost]
+input = 0.08
+output = 0.45
+cache_read = 0.0264
+
+[limit]
+context = 1_000_000
+output = 65_536

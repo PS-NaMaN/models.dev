@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "moonshotai/kimi-k2.5"
+reasoning_options = []
+
+[cost]
+input = 0.285
+output = 1.425
+
+[limit]
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

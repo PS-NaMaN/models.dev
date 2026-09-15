@@ -1,0 +1,22 @@
+# Sources (accessed 2026-09-15):
+# https://qwen.ai/blog?id=qwen3-omni-flash-20251201
+# https://github.com/QwenLM/Qwen3-Omni
+# https://arxiv.org/html/2509.17765v1
+name = "Qwen3-Omni-Flash"
+description = "Lightweight native omni-modal model understanding text, images, audio and video with text and speech output."
+family = "qwen"
+release_date = "2025-09-15"
+last_updated = "2025-12-01"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = false
+
+[limit]
+context = 65_536
+output = 16_384
+
+[modalities]
+input = ["text", "image", "audio", "video"]
+output = ["text"]

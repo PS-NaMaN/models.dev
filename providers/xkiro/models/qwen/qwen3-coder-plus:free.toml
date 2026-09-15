@@ -1,0 +1,9 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "alibaba/qwen3-coder-plus"
+name = "Qwen3 Coder Plus (Free)"
+attachment = true
+reasoning = true
+reasoning_options = []
+
+[modalities]
+input = ["text", "image"]

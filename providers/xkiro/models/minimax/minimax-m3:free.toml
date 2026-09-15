@@ -1,0 +1,16 @@
+# Toggle: reasoning_effort none/disabled intent, translated by xKiro
+# to the model's own off switch
+# https://docs.xkiro.com/guides/reasoning/
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "minimax/MiniMax-M3"
+name = "MiniMax M3 (Free)"
+
+[[reasoning_options]]
+type = "toggle"
+
+[limit]
+context = 1_000_000
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

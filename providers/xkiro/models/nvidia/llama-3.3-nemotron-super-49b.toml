@@ -1,0 +1,16 @@
+# Toggle: reasoning_effort none/disabled intent, translated by xKiro
+# to the model's own off switch
+# https://docs.xkiro.com/guides/reasoning/
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+name = "Llama 3.3 Nemotron Super 49B"
+
+[[reasoning_options]]
+type = "toggle"
+
+[cost]
+input = 0.1
+output = 0.32
+
+[limit]
+output = 65_536

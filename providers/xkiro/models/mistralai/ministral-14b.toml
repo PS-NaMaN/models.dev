@@ -1,0 +1,7 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "mistral/ministral-14b"
+name = "Ministral 3 14B"
+
+[limit]
+context = 256_000
+output = 8_192

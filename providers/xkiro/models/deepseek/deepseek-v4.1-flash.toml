@@ -1,0 +1,16 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "deepseek/deepseek-v4.1-flash"
+
+[[reasoning_options]]
+type = "effort"
+values = ["none", "high"]
+
+[cost]
+input = 0.0975
+output = 0.39
+cache_read = 0.00195
+cache_write = 0.0975
+
+[limit]
+context = 1_048_576
+output = 65_536

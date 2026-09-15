@@ -1,0 +1,18 @@
+# Toggle: reasoning_effort none/disabled intent, translated by xKiro
+# to the model's own off switch
+# https://docs.xkiro.com/guides/reasoning/
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "nvidia/nemotron-3-nano-30b-a3b"
+name = "Nemotron 3 Nano"
+
+[[reasoning_options]]
+type = "toggle"
+
+[cost]
+input = 0.05
+output = 0.2
+cache_read = 0.0165
+
+[limit]
+context = 1_000_000
+output = 65_536

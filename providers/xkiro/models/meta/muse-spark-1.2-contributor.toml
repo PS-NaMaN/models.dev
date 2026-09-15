@@ -1,0 +1,14 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "meta/muse-spark-1.2"
+reasoning_options = []
+
+[cost]
+input = 0.065
+output = 0.13
+cache_read = 0.0013
+
+[limit]
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

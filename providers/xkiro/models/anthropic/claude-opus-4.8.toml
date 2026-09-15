@@ -1,0 +1,19 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "anthropic/claude-opus-4-8"
+name = "Opus 4.8"
+
+[[reasoning_options]]
+type = "effort"
+values = ["low", "medium", "high", "xhigh", "max"]
+
+[cost]
+input = 4.5
+output = 22.5
+cache_read = 0.45
+cache_write = 9
+
+[limit]
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

@@ -1,0 +1,14 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "deepseek/deepseek-v4-flash-vision-exp"
+name = "DeepSeek V4 Flash Vision"
+reasoning_options = []
+
+[cost]
+input = 0.143
+output = 0.429
+cache_read = 0.00455
+cache_write = 0.143
+
+[limit]
+context = 1_048_576
+output = 65_536

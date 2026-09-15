@@ -1,0 +1,7 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "mistral/devstral-medium-latest"
+name = "Devstral 2"
+
+[limit]
+context = 256_000
+output = 16_384

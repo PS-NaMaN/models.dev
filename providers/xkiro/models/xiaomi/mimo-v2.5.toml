@@ -1,0 +1,16 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "xiaomi/mimo-v2.5"
+name = "MiMo v2.5"
+reasoning_options = []
+
+[cost]
+input = 0.091
+output = 0.182
+cache_read = 0.00715
+
+[limit]
+context = 1_050_000
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

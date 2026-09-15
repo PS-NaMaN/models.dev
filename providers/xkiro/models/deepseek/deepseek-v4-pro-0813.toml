@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "deepseek/deepseek-v4-pro-0813"
+reasoning_options = []
+
+[cost]
+input = 0.28275
+output = 0.5655
+cache_read = 0.00234
+cache_write = 0.28275
+
+[limit]
+context = 1_048_576
+output = 65_536

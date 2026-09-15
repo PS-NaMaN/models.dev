@@ -1,0 +1,26 @@
+# Sources (accessed 2026-09-15):
+# https://platform.minimax.io/docs/release-notes/models
+# High-speed serving tier of MiniMax-M2.1 (same weights); tier launch date
+# unpublished, dated to the M2.1 release. Pattern mirrors MiniMax-M2.5-highspeed.
+name = "MiniMax-M2.1-highspeed"
+description = "High-speed MiniMax model for low-latency coding and agent workflows."
+family = "minimax"
+release_date = "2025-12-23"
+last_updated = "2025-12-23"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = true
+
+[limit]
+context = 204_800
+output = 131_072
+
+[modalities]
+input = ["text"]
+output = ["text"]
+
+[[weights]]
+label = "Hugging Face"
+url = "https://huggingface.co/MiniMaxAI/MiniMax-M2.1"

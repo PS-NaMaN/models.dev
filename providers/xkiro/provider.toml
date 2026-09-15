@@ -1,0 +1,5 @@
+name = "xKiro"
+npm = "@ai-sdk/openai-compatible"
+env = ["XKIRO_API_KEY"]
+api = "https://api.xkiro.com/v1"
+doc = "https://docs.xkiro.com"

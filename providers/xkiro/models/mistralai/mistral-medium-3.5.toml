@@ -1,0 +1,10 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "mistral/mistral-medium-2604"
+
+[[reasoning_options]]
+type = "effort"
+values = ["none", "high"]
+
+[limit]
+context = 256_000
+output = 65_536

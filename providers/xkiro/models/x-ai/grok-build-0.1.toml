@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "xai/grok-build-0.1"
+reasoning = false
+
+[cost]
+input = 0.5
+output = 1
+
+[limit]
+output = 16_384
+
+[modalities]
+input = ["text", "image"]

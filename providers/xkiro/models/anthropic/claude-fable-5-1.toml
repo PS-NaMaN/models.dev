@@ -1,0 +1,19 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "anthropic/claude-fable-5-1"
+name = "Fable 5.1"
+
+[[reasoning_options]]
+type = "effort"
+values = ["low", "medium", "high", "xhigh", "max"]
+
+[cost]
+input = 10
+output = 50
+cache_read = 0.25
+cache_write = 20
+
+[limit]
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

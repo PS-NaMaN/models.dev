@@ -1,0 +1,7 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "sensenova/sensenova-6.8-flash-lite"
+name = "SenseNova 6.8 Flash-Lite"
+
+[[reasoning_options]]
+type = "effort"
+values = ["none", "low", "medium", "high"]

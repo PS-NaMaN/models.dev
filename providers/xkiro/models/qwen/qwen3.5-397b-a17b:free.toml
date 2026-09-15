@@ -1,0 +1,7 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "alibaba/qwen3.5-397b-a17b"
+name = "Qwen3.5 397B A17B (Free)"
+reasoning_options = []
+
+[modalities]
+input = ["text", "image"]

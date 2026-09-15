@@ -1,0 +1,27 @@
+# Sources (accessed 2026-09-15):
+# https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning/modelcard
+# https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning
+# https://docs.nvidia.com/nemotron/nightly/nemotron/omni3/architecture.html
+name = "Nemotron 3 Nano Omni 30B A3B"
+description = "Omni-modal Nemotron 3 Nano variant unifying video, audio, image and text for enterprise Q&A, summarization, transcription and document intelligence."
+family = "nemotron"
+release_date = "2026-04-28"
+last_updated = "2026-04-28"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = false
+open_weights = true
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text", "image", "video", "audio"]
+output = ["text"]
+
+[[weights]]
+label = "Hugging Face (BF16)"
+url = "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"

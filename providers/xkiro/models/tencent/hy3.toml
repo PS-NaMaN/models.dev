@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "tencent/hy3"
+base_model_omit = ["limit.input"]
+reasoning_options = []
+
+[cost]
+input = 0.08151
+output = 0.32604
+cache_read = 0.020378
+
+[limit]
+context = 262_144
+output = 65_536

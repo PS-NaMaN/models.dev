@@ -1,0 +1,6 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "mistral/ministral-3-8b-instruct-2512"
+
+[limit]
+context = 256_000
+output = 8_192

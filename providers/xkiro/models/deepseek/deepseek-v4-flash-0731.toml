@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "deepseek/deepseek-v4-flash-0731"
+reasoning_options = []
+
+[cost]
+input = 0.091
+output = 0.182
+cache_read = 0.0182
+cache_write = 0.091
+
+[limit]
+context = 1_048_576
+output = 65_536

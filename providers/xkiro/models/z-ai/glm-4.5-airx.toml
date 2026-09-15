@@ -1,0 +1,17 @@
+# Toggle: reasoning_effort none/disabled intent, translated by xKiro
+# to the model's own off switch
+# https://docs.xkiro.com/guides/reasoning/
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "zhipuai/glm-4.5-air"
+name = "GLM-4.5 AirX"
+
+[[reasoning_options]]
+type = "toggle"
+
+[cost]
+input = 1.1
+output = 4.5
+cache_read = 0.22
+
+[limit]
+output = 65_536

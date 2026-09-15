@@ -42,6 +42,7 @@ import { vercel } from "./providers/vercel.js";
 import { venice } from "./providers/venice.js";
 import { wandb } from "./providers/wandb.js";
 import { xai } from "./providers/xai.js";
+import { xkiro } from "./providers/xkiro.js";
 
 const ExistingModelType = AuthoredModelShape.partial()
   .extend({
@@ -176,6 +177,7 @@ export const providers: {
   venice: SyncProvider<any>;
   wandb: SyncProvider<any>;
   xai: SyncProvider<any>;
+  xkiro: SyncProvider<any>;
 } = {
   ambient,
   anthropic,
@@ -214,6 +216,7 @@ export const providers: {
   venice,
   wandb,
   xai,
+  xkiro,
 };
 
 export const groups = {
@@ -232,6 +235,7 @@ export const groups = {
     "requesty",
     "openrouter",
     "vercel",
+    "xkiro",
   ],
   cloudflare: ["cloudflare-ai-gateway", "cloudflare-workers-ai"],
   direct: ["ambient", "anthropic", "baseten", "chutes", "cortecs", "deepinfra", "digitalocean", "fireworks-ai", "friendli", "github-copilot", "google", "hyper", "meta", "ollama-cloud", "openai", "ovhcloud", "pioneer", "tinfoil", "venice", "wandb", "xai"],

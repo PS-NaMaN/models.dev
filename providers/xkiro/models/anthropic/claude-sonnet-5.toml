@@ -1,0 +1,19 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "anthropic/claude-sonnet-5"
+name = "Sonnet 5"
+
+[[reasoning_options]]
+type = "effort"
+values = ["low", "medium", "high", "xhigh", "max"]
+
+[cost]
+input = 1.8
+output = 9
+cache_read = 0.18
+cache_write = 3.6
+
+[limit]
+output = 65_536
+
+[modalities]
+input = ["text", "image"]

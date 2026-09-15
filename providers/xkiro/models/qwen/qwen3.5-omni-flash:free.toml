@@ -1,0 +1,7 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "alibaba/qwen3.5-omni-flash"
+name = "Qwen3.5 Omni Flash (Free)"
+reasoning_options = []
+
+[modalities]
+input = ["text", "image"]

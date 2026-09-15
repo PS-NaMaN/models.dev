@@ -1,0 +1,6 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "mistral/codestral-2508"
+name = "Codestral"
+
+[limit]
+context = 256_000

@@ -1,0 +1,23 @@
+# Sources (accessed 2026-09-15):
+# https://sensetime.com/en/research/51170639
+# https://github.com/OpenSenseNova/SenseNova6.7
+# https://sensenova.cn/token-plan
+name = "SenseNova 6.7 Flash-Lite"
+description = "Lightweight native-multimodal agent model for long-horizon office workflows like analysis, research and slide generation."
+family = "sensenova"
+release_date = "2026-05-08"
+last_updated = "2026-05-08"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = false
+open_weights = false
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

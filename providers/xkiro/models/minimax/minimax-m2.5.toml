@@ -1,0 +1,13 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "minimax/MiniMax-M2.5"
+name = "MiniMax M2.5"
+reasoning_options = []
+
+[cost]
+input = 0.27
+output = 1.08
+cache_read = 0.027
+cache_write = 0.375
+
+[limit]
+output = 65_536

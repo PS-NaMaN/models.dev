@@ -1,0 +1,16 @@
+# Sources: https://api.xkiro.com/v1/models (pricing, limits, capabilities)
+base_model = "google/gemini-3.7-flash"
+
+[[reasoning_options]]
+type = "effort"
+values = ["low", "medium", "high"]
+
+[cost]
+input = 0.24375
+output = 1.21875
+
+[limit]
+context = 1_000_000
+
+[modalities]
+input = ["text", "image"]

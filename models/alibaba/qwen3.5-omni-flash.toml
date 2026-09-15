@@ -1,0 +1,23 @@
+# Sources (accessed 2026-09-15):
+# https://qwen.ai/blog?id=qwen3.5-omni
+# https://help.aliyun.com/zh/model-studio/qwen3-5-omni-flash
+# https://arxiv.org/html/2604.15804v2
+# https://qwencloud.com/models/qwen3.5-omni-flash
+name = "Qwen3.5-Omni-Flash"
+description = "Efficient flagship-generation omni-modal model for text, image, audio and audio-visual understanding and interaction."
+family = "qwen"
+release_date = "2026-03-15"
+last_updated = "2026-03-15"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = false
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text", "image", "audio", "video"]
+output = ["text"]
